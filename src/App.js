@@ -11,16 +11,15 @@ function App() {
       intensity2: 0.1,
       angle2: Math.PI / 2,
       image1:
-        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9",
+        "https://i.imgur.com/llLAT9I.jpg",
       image2:
-        "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9",
+        "https://i.imgur.com/YncRmSC.jpg",
       displacementImage:
         "https://cdn.rawgit.com/robin-dela/hover-effect/b6c6fd26/images/stripe1mul.png?raw=true"
     });
   });
 
   const [viewToggle, setViewToggle] = useState(false);
-  const [signUpToggle, setSignUpToggle] = useState(false);
   const x = event => {
     event.preventDefault();
     setViewToggle(!viewToggle);
